@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#1e90ff"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#07182a" rx="10"/>
+  <rect x="40" y="40" width="720" height="240" rx="8" fill="url(#g1)" opacity="0.95"/>
+  <text x="400" y="200" fill="#fff" font-size="36" font-family="Arial" text-anchor="middle">Japón</text>
+  <text x="400" y="240" fill="#fff" font-size="20" font-family="Arial" text-anchor="middle">Tokio · Kyoto · Onsen</text>
+</svg>

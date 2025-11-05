@@ -1,4 +1,3 @@
-// Client-side search and filter for blog_activity index
 (() => {
   'use strict';
 
@@ -49,16 +48,14 @@
     const debounced = debounce(applyFilter, 180);
     search.addEventListener('input', debounced);
     filter.addEventListener('change', applyFilter);
-
-    // keyboard: focus search with '/'
+    
     window.addEventListener('keydown', (e) => {
       if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
         e.preventDefault();
         search.focus();
       }
     });
-
-    // initial run in case
+   
     applyFilter();
   }
 
@@ -68,3 +65,4 @@
     init();
   }
 })();
+
